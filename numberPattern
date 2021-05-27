@@ -1,0 +1,14 @@
+
+<html>
+<head>
+<title>JavaScript Number Patterns</title>
+<script type="text/javascript">
+n = prompt("enter n vlue")
+for i in range(n)
+document.write(" "*(n-i-1)+"*"*(i+1));
+for iin range(n-1)
+document.write(" "*(i+1)+"*"*(n-i-1));
+</script>
+</head>
+<body></body>
+</html>
