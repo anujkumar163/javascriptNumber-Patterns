@@ -1,0 +1,50 @@
+
+<html>
+<head>
+<style>
+*{margin:0; padding:0; paddinng:20px;}
+.centerdiv {
+height; 100vh;
+display: flex;
+justify-content: center;
+align-items:center;
+}
+a {
+height: 100px;
+width: 100px;
+background-color: #f0f0fa;
+border-radius: 50px;
+text-align: center;
+margin: 10px;
+box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+a i {
+
+transition: all 0.3s linear;
+}
+a:hover i {
+transform: scale(1.4);
+}
+.fa-instagram{
+color: #e04393;
+}
+.fa-youtube{
+color: #e04118;
+}
+
+</style>
+<title>font Awesome Icons</title>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/
+
+
+</head>
+<body>
+<div class="centerdiv">
+<a href=" https://www.instagram.com/" target="_blank">
+<i class="fab fa-3x fa-instagram"></a></i>
+<a href="https://www.facebook.com/ " target="_blank">
+<i class="fab fa-3x fa-facebook-f"></i></a>
+
+
+</body>
+</html>
